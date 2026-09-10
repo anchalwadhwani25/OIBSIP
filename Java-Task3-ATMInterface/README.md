@@ -57,7 +57,7 @@ The project demonstrates practical implementation of **Java OOP, encapsulation, 
 ## 🏗️ Project Structure
 
 ```text
-ATMInterface/
+Java-Task3-ATMInterface/
 │
 ├── src/
 │   └── atm/
@@ -129,10 +129,10 @@ Logout / Exit
 For testing purposes, the application includes demo accounts.
 
 | User ID | PIN    | Initial Balance |
-| ------- | ------ | --------------- |
-| `user1` | `1234` | PKR 50,000      |
-| `user2` | `5678` | PKR 30,000      |
-| `user3` | `1111` | PKR 20,000      |
+| ------- | ------ | --------------: |
+| `user1` | `1234` |      PKR 50,000 |
+| `user2` | `5678` |      PKR 30,000 |
+| `user3` | `1111` |      PKR 20,000 |
 
 Users can also create a new account directly from the application.
 
@@ -146,19 +146,6 @@ Users can also create a new account directly from the application.
 6. Select an option from the welcome menu.
 7. Login or create a new account.
 8. Perform ATM transactions through the dashboard.
-
-## 📸 Application Screenshots
-
-Screenshots demonstrating the application's functionality can be added to this section, including:
-
-* Welcome Menu
-* Account Creation
-* Successful Login
-* ATM Dashboard
-* Withdrawal
-* Deposit
-* Fund Transfer
-* Transaction History
 
 ## 🎯 Learning Outcomes
 
@@ -181,8 +168,7 @@ This project demonstrates practical understanding of:
 
 **Anchal Wadhwani**
 
-Java Development Internship Project
-**OASIS INFOBYTE / SIP**
+Java Development Internship Project **OASIS INFOBYTE / SIP**
 
 ## 📄 Internship Task
 
