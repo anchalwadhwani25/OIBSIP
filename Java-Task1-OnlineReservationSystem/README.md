@@ -1,4 +1,3 @@
-<img width="960" height="515" alt="login screenT1" src="https://github.com/user-attachments/assets/9e4562e3-7349-4fc9-b4e7-39c3a54a5a09" /># Online Reservation System
 
 ## 📌 Project Overview
 
