@@ -75,8 +75,41 @@ Java-Task3-ATMInterface/
 │       │
 │       └── util/
 │
+├── screenshots/
+│   ├── login.png
+│   ├── atm-menu.png
+│   ├── withdrawal.png
+│   ├── deposit.png
+│   └── transaction-history.png
+│
 └── README.md
 ```
+
+## 📸 Screenshots
+
+### Login Screen
+<img width="960" height="440" alt="T3" src="https://github.com/user-attachments/assets/c55bfe8c-28be-4dfc-98f0-028e81edf20e" />
+
+
+### ATM Menu
+
+<img width="957" height="516" alt="login success T4" src="https://github.com/user-attachments/assets/98b9e119-66f5-440f-b983-17056b2e5ff2" />
+
+
+### Withdrawal
+<img width="586" height="450" alt="WithdrawT4" src="https://github.com/user-attachments/assets/c12a68eb-a950-46db-9d01-b27338b6ba21" />
+
+
+
+### Deposit
+
+!<img width="723" height="485" alt="deposit T3" src="https://github.com/user-attachments/assets/397f0848-f177-41d1-abf7-2ea87345b37a" />
+
+
+### Transaction History
+
+<img width="857" height="520" alt="Transaction t3" src="https://github.com/user-attachments/assets/187f5f72-4787-4a39-ad52-e2b00367c50b" />
+
 
 ## 🧩 Core Classes
 
@@ -129,10 +162,10 @@ Logout / Exit
 For testing purposes, the application includes demo accounts.
 
 | User ID | PIN    | Initial Balance |
-| ------- | ------ | --------------: |
-| `user1` | `1234` |      PKR 50,000 |
-| `user2` | `5678` |      PKR 30,000 |
-| `user3` | `1111` |      PKR 20,000 |
+| ------- | ------ | --------------- |
+| `user1` | `1234` | PKR 50,000      |
+| `user2` | `5678` | PKR 30,000      |
+| `user3` | `1111` | PKR 20,000      |
 
 Users can also create a new account directly from the application.
 
@@ -144,8 +177,47 @@ Users can also create a new account directly from the application.
 4. Open `Main.java`.
 5. Run the `Main` class.
 6. Select an option from the welcome menu.
-7. Login or create a new account.
+7. Login using the provided credentials or create a new account.
 8. Perform ATM transactions through the dashboard.
+9. View the transaction history and logout or exit the application.
+
+## 💳 Main ATM Operations
+
+### Check Balance
+
+Users can check their current account balance through the ATM menu.
+
+### Withdraw
+
+Users can withdraw money from their account after successful authentication. The system checks whether sufficient balance is available.
+
+### Deposit
+
+Users can deposit money into their account. The balance is updated after a successful transaction.
+
+### Transfer
+
+Users can transfer funds to another account. The system validates the destination account and available balance.
+
+### Transaction History
+
+The system maintains a record of completed transactions and displays the transaction history to the user.
+
+### Logout
+
+Users can securely logout from their current ATM session.
+
+## 🛡️ Security and Validation
+
+The application includes basic validation mechanisms to improve reliability and security:
+
+* User ID authentication
+* 4-digit PIN validation
+* Maximum login attempts
+* Balance verification
+* Transaction amount validation
+* Account ID validation
+* Prevention of transfers to the same account
 
 ## 🎯 Learning Outcomes
 
@@ -164,16 +236,19 @@ This project demonstrates practical understanding of:
 * Basic Banking Transaction Logic
 * Modular Java Application Design
 
+## 🎯 Internship Task
+
+**Track:** Java Development
+
+**Task:** Task 3 — ATM Interface
+
+**Organization:** OASIS INFOBYTE / SIP
+
 ## 👩‍💻 Author
 
 **Anchal Wadhwani**
 
-Java Development Internship Project **OASIS INFOBYTE / SIP**
-
-## 📄 Internship Task
-
-**Track:** Java Development
-**Task:** Task 3 — ATM Interface
+BSCS Student | Java Development
 
 ---
 
