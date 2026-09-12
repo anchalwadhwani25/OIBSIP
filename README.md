@@ -67,8 +67,7 @@ Java-Task4-OnlineExaminationSystem/
 ## 📸 Screenshots
 
 ### Login Screen
-
-<img width="957" height="516" alt="login success T4" src="https://github.com/user-attachments/assets/0fbc013d-f859-4cb2-b71c-24ae0a4fc0ae" />
+<img width="960" height="540" alt="login" src="https://github.com/user-attachments/assets/f5559cf4-1a27-42b2-a2c6-2a0ecfa4e70c" />
 
 
 ### Examination Screen
